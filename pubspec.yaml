@@ -1,0 +1,37 @@
+name: progetto_appuntamenti
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  # DIPENDENZE RICHIESTE DA TRACCIA
+  flutter_riverpod: ^2.5.1
+  http: ^1.2.1
+  shared_preferences: ^2.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+  flutter_native_splash: ^2.3.6
+
+flutter_native_splash:
+  color: "#ffffff"
+  image: assets/logo.png
+  android: true
+  ios: true
+  android_gravity: center
+  ios_content_mode: center
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/logo.png
